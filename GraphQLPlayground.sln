@@ -5,7 +5,9 @@ VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQLPlayground.Api", "GraphQLPlayground\GraphQLPlayground.Api.csproj", "{94653987-D765-4C6A-AE5C-6972D1A4C19B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLPlayground.Server", "GraphQLPlayground.Server\GraphQLPlayground.Server.csproj", "{C0247733-FAAC-4487-8ACB-862853408FAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQLPlayground.Server", "GraphQLPlayground.Server\GraphQLPlayground.Server.csproj", "{C0247733-FAAC-4487-8ACB-862853408FAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLPlayground.Client", "GraphQLPlayground.Client\GraphQLPlayground.Client.csproj", "{945F9FC8-3780-4AFC-A93D-F223002255D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C0247733-FAAC-4487-8ACB-862853408FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0247733-FAAC-4487-8ACB-862853408FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0247733-FAAC-4487-8ACB-862853408FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{945F9FC8-3780-4AFC-A93D-F223002255D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{945F9FC8-3780-4AFC-A93D-F223002255D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{945F9FC8-3780-4AFC-A93D-F223002255D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{945F9FC8-3780-4AFC-A93D-F223002255D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
